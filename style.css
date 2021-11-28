@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+/* container */
+.container {
+    max-width: 800px;
+    margin: 5rem auto;
+    -webkit-box-shadow: 4px 4px 39px 18px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 39px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* horizontal lines */
+.horizontal-line-1 {
+    margin: 7px 0;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.horizontal-line-2 {
+    margin: 7px 0;
+    border-bottom: 2px solid #6c6d70;
+}
+
+/* cv container */
+.cv {
+    display: flex;
+}
+
+/* cv left and right side */
+.cv__left {
+    flex: 1 1 35%;
+    background-color: #383839;
+    padding: 20px 0 20px 20px;
+}
+
+.cv__right {
+    flex: 1 1 65%;
+    background-color: #fff;
+    padding: 50px;
+}
+
+/* cv image css */
+.cv__img__container {
+    display: flex;
+    justify-content: center;
+}
+
+.cv__img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* contact section */
+.contact {
+    padding: 40px 0;
+}
+
+.contact__title {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.address {
+    display: flex;
+    gap: 10px;
+}
+
+.address__icon_map {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.address__description {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.phone__icon_phone {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.phone__description {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.web {
+    display: flex;
+    gap: 10px;
+}
+
+.web__icon_web {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.web__description {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.web__description a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/* skills section css */
+.skills {
+    padding: 0 0 40px 0;
+}
+
+.skills__title {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.skills__description {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* follow section */
+.follow {
+    padding: 0 0 40px 0;
+}
+
+.follow__title {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.follow__description {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* name */
+.cv__name {
+    font-size: 35px;
+    color: #383839;
+    letter-spacing: 3px;
+    padding: 30px 0;
+}
+
+/* experience area */
+.cv__experience {
+    padding-bottom: 50px;
+}
+
+.cv__experience__icon-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cv__experience__items {
+    display: flex;
+    gap: 10px;
+}
+
+.cv__experience__items-left {
+    flex: 1 1 40%;
+}
+.cv__experience__items-right {
+    flex: 1 1 60%;
+}
+.cv__experience-time {
+    color: #383839;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cv__experience-company {
+    color: #383839;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cv__experience-post {
+    color: #383839;
+    font-size: 16px;
+}
+.cv__experience-description {
+    font-size: 13px;
+    color: #383839;
+}
+
+.experience__icon_bag,
+.education__icon_mortarboard,
+.extracurricular__icon_pen,
+.references__icon_refer {
+    width: 25px;
+    height: 25px;
+}
+
+/* education section */
+.cv__education {
+    padding-bottom: 50px;
+}
+
+.cv__education__icon-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cv__education__items {
+    display: flex;
+    gap: 10px;
+}
+
+.cv__education__items-left {
+    flex: 1 1 40%;
+}
+.cv__education__items-right {
+    flex: 1 1 60%;
+}
+.cv__education-time {
+    color: #383839;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.cv__education-institute {
+    color: #383839;
+    font-weight: 500;
+}
+
+.cv__education-subject {
+    color: #383839;
+    font-size: 16px;
+}
+.cv__education-status {
+    font-size: 13px;
+    color: #383839;
+}
+
+/* extra curricular section */
+.cv__extracurricular {
+    padding-bottom: 50px;
+}
+
+.cv__extracurricular__icon-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cv__extracurricular__items {
+    display: flex;
+    gap: 10px;
+}
+
+.cv__extracurricular__items-left {
+    flex: 1 1 40%;
+}
+.cv__extracurricular__items-right {
+    flex: 1 1 60%;
+}
+.cv__extracurricular-time {
+    color: #383839;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.cv__extracurricular-organization {
+    color: #383839;
+    font-weight: 600;
+}
+
+.cv__extracurricular-post {
+    color: #383839;
+    font-size: 16px;
+}
+.cv__extracurricular-description {
+    font-size: 13px;
+    color: #383839;
+}
+
+/* references section */
+.cv__references__icon-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.cv__references__items {
+    display: flex;
+    gap: 10px;
+}
+
+.cv__references__items-left {
+    flex: 1 1 40%;
+}
+.cv__references__items-right {
+    flex: 1 1 60%;
+}
+.cv__references-time {
+    color: #383839;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.cv__references-organization {
+    color: #383839;
+    font-weight: 600;
+}
+
+.cv__references-post {
+    color: #383839;
+    font-size: 16px;
+}
+.cv__references-description {
+    font-size: 13px;
+    color: #383839;
+}
+
+.cv__references__description {
+    font-size: 16px;
+    color: #383839;
+}
+
+.references_mail {
+    text-decoration: none;
+    color: #383839;
+}
